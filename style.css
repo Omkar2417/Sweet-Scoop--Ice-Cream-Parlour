@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(mainbg.jpg);
+    background-size:cover;
+}
+.navbar-brand{
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.logo{
+    border-radius: 50%;
+}
+#form{
+    display: flex;
+}
+#navbar1{
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    transition: all 0.5s ease-in;
+    transform: scale(1.1) translateX(4em);
+}
+/* body{
+    overflow: hidden;
+} */
+#heading{
+    text-align: center;
+    font-weight: bolder;
+    color: rebeccapurple;
+}
+
+#s{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+/* #s:hover .stars{
+    display: block;
+    filter: drop-shadow(0 0 10px 
+    yellow);
+} */
+h3{
+    /* text-color: blue; */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* #d1,#d2,#d3{
+    background-color: rgb(218, 178, 255);
+} */
+#d1{
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+#d2{
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#d3{
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#ingred{
+    /* margin-left: 160px; */
+    margin-bottom: 5px;
+    
+}
+p{
+    text-align: center;
+}
+#one:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+#two:hover{
+    transform: skewY(5deg);
+}
+#d3:hover{
+    background-color: rgb(164, 222, 164);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1) translate(9px,9%);;
+}
+#d2:hover{
+    background-color:  rgb(164, 222, 164);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1) translate(9px,9%);;
+}
+#d1:hover{
+    background-color: rgb(164, 222, 164);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1) translate(9px,9%);;
+}
+#form1:hover{
+    background-color:rgb(252, 189, 255);
+}
+
+#order-img{
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+}
+
+ #order-img:hover{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(10px) rotate(-10deg) translateY(5px);
+} 
+#heading:hover{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(50px);
+}
